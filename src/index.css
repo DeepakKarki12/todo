@@ -1,0 +1,62 @@
+.container h4{
+  background-color: black;
+  color: aliceblue;
+  display: block;
+}
+.x{
+
+    position:absolute;
+    top:0px;
+    width:100%;
+    border:  2px solid red;
+    
+}
+.form{
+  display: block;
+  width: 100px;
+  position: absolute;
+  left: 500px;
+
+}
+
+.form input,.form textarea{
+  width: 400px;
+}
+.form label{
+  display: block;
+  padding: 20px 1px;
+  text-align: left;
+  width: 400px;
+  font-size: 2rem; 
+}
+.form .author{
+  display: flex;
+
+    padding: 19px 10px;
+    text-align: left;
+    width: 400px;
+    font-size: 1.5rem;
+   padding-bottom: 0px;
+}
+.form select{
+margin-top: 0px;
+margin-left: 10px;
+margin-bottom: 30px;
+font-size: 1.3rem;
+background-color: aqua;
+width: 200px;
+}
+.form button{
+margin-top: 0px;
+margin-left: 10px;
+margin-bottom: 30px;
+font-size: 1rem;
+background-color: rgb(14, 0, 0);
+color: rgb(255, 255, 255);
+width: 100px;
+}
+.blog h1{
+display: block;
+width: 400px;
+margin: auto;
+}
